@@ -1,0 +1,1272 @@
+fileFormatVersion: 2
+guid: 303d6c409b34f09469272ea98e58aefa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6289036490104732651
+    second: MinecraftBlocks_0
+  - first:
+      213: -4254800193637340479
+    second: MinecraftBlocks_1
+  - first:
+      213: -6920264307490577417
+    second: MinecraftBlocks_2
+  - first:
+      213: 8389471351394001606
+    second: MinecraftBlocks_3
+  - first:
+      213: -2908074511431949540
+    second: MinecraftBlocks_4
+  - first:
+      213: 1537471335427636077
+    second: MinecraftBlocks_5
+  - first:
+      213: -5803881962935349569
+    second: MinecraftBlocks_6
+  - first:
+      213: 6929680069215357370
+    second: MinecraftBlocks_7
+  - first:
+      213: 5568932504874233268
+    second: MinecraftBlocks_8
+  - first:
+      213: -2821711528227191979
+    second: MinecraftBlocks_9
+  - first:
+      213: 4687649339710006225
+    second: MinecraftBlocks_10
+  - first:
+      213: -2923313094786581293
+    second: MinecraftBlocks_11
+  - first:
+      213: 65075999440231163
+    second: MinecraftBlocks_12
+  - first:
+      213: 6026673774446029901
+    second: MinecraftBlocks_13
+  - first:
+      213: -8571454117451264539
+    second: MinecraftBlocks_14
+  - first:
+      213: -2010783549905200562
+    second: MinecraftBlocks_15
+  - first:
+      213: 2232886171401134905
+    second: MinecraftBlocks_16
+  - first:
+      213: -5750383700843497083
+    second: MinecraftBlocks_17
+  - first:
+      213: 5993811435431611888
+    second: MinecraftBlocks_18
+  - first:
+      213: 1309545159408355429
+    second: MinecraftBlocks_19
+  - first:
+      213: -5439315746126172394
+    second: MinecraftBlocks_20
+  - first:
+      213: 2854871245865737418
+    second: MinecraftBlocks_21
+  - first:
+      213: 8567475678719593555
+    second: MinecraftBlocks_22
+  - first:
+      213: -953879750703413250
+    second: MinecraftBlocks_23
+  - first:
+      213: -1872695998448480701
+    second: MinecraftBlocks_24
+  - first:
+      213: 714176660334376185
+    second: MinecraftBlocks_25
+  - first:
+      213: 770800497629419499
+    second: MinecraftBlocks_26
+  - first:
+      213: -7145574635759382876
+    second: MinecraftBlocks_27
+  - first:
+      213: 7638004659574223106
+    second: MinecraftBlocks_28
+  - first:
+      213: -4541988545537367975
+    second: MinecraftBlocks_29
+  - first:
+      213: 8179908316365423226
+    second: MinecraftBlocks_30
+  - first:
+      213: -3234073128486586476
+    second: MinecraftBlocks_31
+  - first:
+      213: 4204212558468117226
+    second: MinecraftBlocks_32
+  - first:
+      213: -7119432729454735423
+    second: MinecraftBlocks_33
+  - first:
+      213: -4685090475108987735
+    second: MinecraftBlocks_34
+  - first:
+      213: 282740593767581779
+    second: MinecraftBlocks_35
+  - first:
+      213: -6362750475779110897
+    second: MinecraftBlocks_36
+  - first:
+      213: 5388640550037111216
+    second: MinecraftBlocks_37
+  - first:
+      213: -551622290323537105
+    second: MinecraftBlocks_38
+  - first:
+      213: -2775633802239945925
+    second: MinecraftBlocks_39
+  - first:
+      213: 7944329129360734029
+    second: MinecraftBlocks_40
+  - first:
+      213: -2660087284833201355
+    second: MinecraftBlocks_41
+  - first:
+      213: 9037856893550699738
+    second: MinecraftBlocks_42
+  - first:
+      213: 7252546726726693707
+    second: MinecraftBlocks_43
+  - first:
+      213: 575419083411382186
+    second: MinecraftBlocks_44
+  - first:
+      213: 4178104089584117412
+    second: MinecraftBlocks_45
+  - first:
+      213: -1647358699006548677
+    second: MinecraftBlocks_46
+  - first:
+      213: -2082447687585420973
+    second: MinecraftBlocks_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MinecraftBlocks_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51486db02aad8b8a0800000000000000
+      internalID: -6289036490104732651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1caabfb44c9e3f4c0800000000000000
+      internalID: -4254800193637340479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3a538074846ff90800000000000000
+      internalID: -6920264307490577417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2e729aeb36d6470800000000000000
+      internalID: 8389471351394001606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c132bb5b3a174a7d0800000000000000
+      internalID: -2908074511431949540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_5
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b7280a802365510800000000000000
+      internalID: 1537471335427636077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe01f0ea18747fa0800000000000000
+      internalID: -5803881962935349569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab98fa4de4b2b2060800000000000000
+      internalID: 6929680069215357370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 688
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bda7239b92d84d40800000000000000
+      internalID: 5568932504874233268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553c46da05447d8d0800000000000000
+      internalID: -2821711528227191979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_10
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3620dfc30ed0140800000000000000
+      internalID: 4687649339710006225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_11
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 672
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc7ff98a3e4e67d0800000000000000
+      internalID: -2923313094786581293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_12
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfad906d64237e000800000000000000
+      internalID: 65075999440231163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_13
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ca40ffddb03a350800000000000000
+      internalID: 6026673774446029901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_14
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed02c8c4e31c0980800000000000000
+      internalID: -8571454117451264539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_15
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a93b3d3034814e0800000000000000
+      internalID: -2010783549905200562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_16
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9332f3e742eccfe10800000000000000
+      internalID: 2232886171401134905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_17
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589f60dad788230b0800000000000000
+      internalID: -5750383700843497083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_18
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd43937ebb4e2350800000000000000
+      internalID: 5993811435431611888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_19
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5680edb52607c2210800000000000000
+      internalID: 1309545159408355429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_20
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fe5fac52ba384b0800000000000000
+      internalID: -5439315746126172394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_21
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accdd49b54a8e9720800000000000000
+      internalID: 2854871245865737418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_22
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c41e3ccb9c5e670800000000000000
+      internalID: 8567475678719593555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_23
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef782ecab6323c2f0800000000000000
+      internalID: -953879750703413250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_24
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ece2059e8d206e0800000000000000
+      internalID: -1872695998448480701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_25
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 624
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4fa1283e349e900800000000000000
+      internalID: 714176660334376185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_26
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be755edf7fe62ba00800000000000000
+      internalID: 770800497629419499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_27
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 608
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae45874ab1d5dc90800000000000000
+      internalID: -7145574635759382876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_28
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 624
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20133be15c4aff960800000000000000
+      internalID: 7638004659574223106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_29
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 624
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9502a597b7d97f0c0800000000000000
+      internalID: -4541988545537367975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_30
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 592
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a728934564fd48170800000000000000
+      internalID: 8179908316365423226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_31
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 368
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497bbeedf934e13d0800000000000000
+      internalID: -3234073128486586476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_32
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae27abb0c0d585a30800000000000000
+      internalID: 4204212558468117226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_33
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf8f8627a1b23d90800000000000000
+      internalID: -7119432729454735423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_34
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac009a19073bfeb0800000000000000
+      internalID: -4685090475108987735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_35
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358891f621f7ce300800000000000000
+      internalID: 282740593767581779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_36
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f080db05728f2b7a0800000000000000
+      internalID: -6362750475779110897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_37
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 640
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b14a3fa70c48ca40800000000000000
+      internalID: 5388640550037111216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_38
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f230417137e3858f0800000000000000
+      internalID: -551622290323537105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_39
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33dbe643c7fa79d0800000000000000
+      internalID: -2775633802239945925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_40
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 624
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47b556904def3e60800000000000000
+      internalID: 7944329129360734029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_41
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533dbfb45b8751bd0800000000000000
+      internalID: -2660087284833201355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_42
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4a7e6c5faec6d70800000000000000
+      internalID: 9037856893550699738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_43
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43777382d836a460800000000000000
+      internalID: 7252546726726693707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_44
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 560
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf57bf8b9c4cf700800000000000000
+      internalID: 575419083411382186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_45
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 624
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6a44e688b9bf930800000000000000
+      internalID: 4178104089584117412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_46
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 641
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35a018cdf76329e0800000000000000
+      internalID: -1647358699006548677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MinecraftBlocks_47
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 656
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35923268cd8a913e0800000000000000
+      internalID: -2082447687585420973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
