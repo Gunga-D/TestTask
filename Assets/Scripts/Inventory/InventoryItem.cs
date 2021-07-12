@@ -1,23 +1,11 @@
 using UnityEngine;
 
-public class InventoryItem : MonoBehaviour
+namespace Inventory
 {
-    [SerializeField] private int _barCode;
-    [SerializeField] private GameObject _prefab;
-
-    public GameObject Prefab
+    public class InventoryItem : MonoBehaviour
     {
-        get
-        {
-            return _prefab;
-        }
-    }
+        [SerializeField] private int _barCode;
 
-    public int BarCode
-    {
-        get
-        {
-            return _barCode;
-        }
+        public int BarCode => _barCode;
     }
 }

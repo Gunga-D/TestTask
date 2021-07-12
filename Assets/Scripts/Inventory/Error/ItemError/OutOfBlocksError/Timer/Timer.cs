@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using Zenject;
 
 public class Timer : MonoBehaviour
 {
@@ -13,11 +14,19 @@ public class Timer : MonoBehaviour
 
     private DateTime _pausedTime;
 
-    public Action<Timer> Finished;
+    private TimersContainer _timersContainer;
+
+    public event Action<Timer> Finished;
+
+    [Inject]
+    private void Contruct(TimersContainer timersContainer)
+    {
+        _timersContainer = timersContainer;
+    }
 
     private void Awake()
     {
-        TimersContainer.Instance.AddTimer(this);
+        _timersContainer.AddTimer(this);
 
         _currentTime = _startHours * 3600f + _startMinutes * 60f + _startSeconds;
     }

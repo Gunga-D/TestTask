@@ -2,43 +2,47 @@ using UnityEngine;
 using System;
 using UnityEngine.UI;
 
-public class InventoryCategory : MonoBehaviour
+namespace Inventory
 {
-    [SerializeField] private Sprite _unlockedImage;
-    [SerializeField] private Sprite _lockedImage;
-    [SerializeField] private Image _background;
-    [SerializeField] private Image _icon;
-
-    [SerializeField] public bool Unlocked;
-
-    public Action<InventoryCategory> Selected;
-
-    private void Awake()
+    public class InventoryCategory : MonoBehaviour
     {
-        if (Unlocked)
+        [SerializeField] private Sprite _unlockedImage;
+        [SerializeField] private Sprite _lockedImage;
+        [SerializeField] private Image _background;
+        [SerializeField] private Image _icon;
+
+        [SerializeField] public bool Unlocked;
+
+        public event Action<InventoryCategory> Selected;
+
+        private void Awake()
         {
-            ChangeToUnlockedStyle();
+            if (Unlocked)
+            {
+                ChangeToUnlockedStyle();
+            }
+            else
+            {
+                ChangeToLockedStyle();
+            }
         }
-        else
+
+        private void ChangeToUnlockedStyle()
         {
-            ChangeToLockedStyle();
+            _background.sprite = _unlockedImage;
+            _icon.gameObject.SetActive(true);
+        }
+
+        private void ChangeToLockedStyle()
+        {
+            _background.sprite = _lockedImage;
+            _icon.gameObject.SetActive(false);
+        }
+
+        public void OnClick()
+        {
+            Selected?.Invoke(this);
         }
     }
 
-    private void ChangeToUnlockedStyle()
-    {
-        _background.sprite = _unlockedImage;
-        _icon.gameObject.SetActive(true);
-    }
-
-    private void ChangeToLockedStyle()
-    {
-        _background.sprite = _lockedImage;
-        _icon.gameObject.SetActive(false);
-    }
-
-    public void OnClick()
-    {
-        Selected?.Invoke(this);
-    }
 }

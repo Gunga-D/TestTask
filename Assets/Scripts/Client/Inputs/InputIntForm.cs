@@ -1,21 +1,24 @@
 using UnityEngine.UI;
 using UnityEngine;
 
-public abstract class InputIntForm : MonoBehaviour
+namespace Client
 {
-    private Text _inputText;
-
-    protected void Initialize(Text inputText)
+    public abstract class InputIntForm : MonoBehaviour
     {
-        _inputText = inputText;
-    }
+        private Text _inputText;
 
-    public int GetValue()
-    {
-        int result = 0;
+        protected void Initialize(Text inputText)
+        {
+            _inputText = inputText;
+        }
 
-        int.TryParse(_inputText.text, out result);
+        public int GetValue()
+        {
+            int result = 0;
 
-        return result;
+            int.TryParse(_inputText.text, out result);
+
+            return result;
+        }
     }
 }

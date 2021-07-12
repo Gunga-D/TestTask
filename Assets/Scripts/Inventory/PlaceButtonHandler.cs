@@ -1,12 +1,15 @@
 using System;
 using UnityEngine;
 
-public class PlaceButtonHandler : MonoBehaviour
+namespace Inventory
 {
-    public Action PlacedItem;
-
-    public void Click()
+    public class PlaceButtonHandler : MonoBehaviour
     {
-        PlacedItem?.Invoke();
+        public event Action PlacedItem;
+
+        public void Click()
+        {
+            PlacedItem?.Invoke();
+        }
     }
 }

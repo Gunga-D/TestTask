@@ -2,44 +2,47 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SingleInventorySlot : MonoBehaviour
+namespace Inventory
 {
-    [SerializeField] private List<InventorySlot> _slots = new List<InventorySlot>();
-    private InventorySlot _activeSlot;
-
-    public InventorySlot Instance
+    public class SingleInventorySlot : MonoBehaviour
     {
-        get
-        {
-            return _activeSlot;
-        }
-    }
+        [SerializeField] private List<InventorySlot> _slots = new List<InventorySlot>();
+        private InventorySlot _activeSlot;
 
-    private void Awake()
-    {
-        foreach(var slot in _slots)
+        public InventorySlot Instance
         {
-            slot.Selected += OnSelectSlot;
-        }
-    }
-
-    private void OnSelectSlot(InventorySlot slot)
-    {
-        if (_activeSlot)
-        {
-            _activeSlot.ChangeToUnselectStyle();
+            get
+            {
+                return _activeSlot;
+            }
         }
 
-        _activeSlot = slot;
-
-        _activeSlot.ChangeToSelectStyle();
-    }
-
-    public void Place(InventoryItem item)
-    {
-        if (_activeSlot)
+        private void Awake()
         {
-            _activeSlot.Place(item);
+            foreach (var slot in _slots)
+            {
+                slot.Selected += OnSelectSlot;
+            }
+        }
+
+        private void OnSelectSlot(InventorySlot slot)
+        {
+            if (_activeSlot)
+            {
+                _activeSlot.ChangeToUnselectStyle();
+            }
+
+            _activeSlot = slot;
+
+            _activeSlot.ChangeToSelectStyle();
+        }
+
+        public void Place(InventoryItem item)
+        {
+            if (_activeSlot)
+            {
+                _activeSlot.Place(item);
+            }
         }
     }
 }

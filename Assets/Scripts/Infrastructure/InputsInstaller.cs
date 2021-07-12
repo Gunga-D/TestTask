@@ -1,14 +1,18 @@
+using Client;
 using UnityEngine;
 using Zenject;
 
-public class InputsInstaller : MonoInstaller
+namespace Infrastructure
 {
-    [SerializeField] private DiamondsInput _diamondsInput;
-    [SerializeField] private TimeInput _timeInput;
-
-    public override void InstallBindings()
+    public class InputsInstaller : MonoInstaller
     {
-        Container.Bind<DiamondsInput>().FromInstance(_diamondsInput).AsSingle();
-        Container.Bind<TimeInput>().FromInstance(_timeInput).AsSingle();
+        [SerializeField] private DiamondsInput _diamondsInput;
+        [SerializeField] private TimeInput _timeInput;
+
+        public override void InstallBindings()
+        {
+            Container.Bind<DiamondsInput>().FromInstance(_diamondsInput).AsSingle();
+            Container.Bind<TimeInput>().FromInstance(_timeInput).AsSingle();
+        }
     }
 }

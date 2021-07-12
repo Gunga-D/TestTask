@@ -3,55 +3,58 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-public class InventoryMenu : MonoBehaviour
+namespace Inventory
 {
-    [SerializeField] private List<InventoryCategory> _categories = new List<InventoryCategory>();
-    [SerializeField] private List<InventoryPage> _matchingPages = new List<InventoryPage>();
-    private Dictionary<InventoryCategory, InventoryPage> _matchSections = new Dictionary<InventoryCategory, InventoryPage>();
-
-    private InventoryCategory _selectedCategory;
-
-    private void Awake()
+    public class InventoryMenu : MonoBehaviour
     {
-        if(_categories.Count != _matchingPages.Count)
-        {
-            throw new System.ArgumentException("The number of elements in both lists must be the same.");
-        }
+        [SerializeField] private List<InventoryCategory> _categories = new List<InventoryCategory>();
+        [SerializeField] private List<InventoryPage> _matchingPages = new List<InventoryPage>();
+        private Dictionary<InventoryCategory, InventoryPage> _matchSections = new Dictionary<InventoryCategory, InventoryPage>();
 
-        for(int i = 0; i < _categories.Count; i++)
-        {
-            if (_categories[i].Unlocked)
-            {
-                _categories[i].Selected += OnSelectCategory;
-            }
-            else
-            {
+        private InventoryCategory _selectedCategory;
 
+        private void Awake()
+        {
+            if (_categories.Count != _matchingPages.Count)
+            {
+                throw new System.ArgumentException("The number of elements in both lists must be the same.");
             }
 
-            _matchSections.Add(_categories[i], _matchingPages[i]);
+            for (int i = 0; i < _categories.Count; i++)
+            {
+                if (_categories[i].Unlocked)
+                {
+                    _categories[i].Selected += OnSelectCategory;
+                }
+                else
+                {
+
+                }
+
+                _matchSections.Add(_categories[i], _matchingPages[i]);
+            }
+
+            _categories.Clear();
+            _matchingPages.Clear();
+
+            _selectedCategory = _matchSections.ElementAt(0).Key;
+            _selectedCategory.OnClick();
         }
 
-        _categories.Clear();
-        _matchingPages.Clear();
-
-        _selectedCategory = _matchSections.ElementAt(0).Key;
-        _selectedCategory.OnClick();
-    }
-
-    private void OnSelectCategory(InventoryCategory category)
-    {
-        if(_selectedCategory != null)
+        private void OnSelectCategory(InventoryCategory category)
         {
-            _matchSections[_selectedCategory].Close();
+            if (_selectedCategory != null)
+            {
+                _matchSections[_selectedCategory].Close();
+            }
+            _selectedCategory = category;
+
+            _matchSections[category].Open();
         }
-        _selectedCategory = category;
 
-        _matchSections[category].Open();
-    }
-
-    public InventoryMenuItem GetSelectedItem()
-    {
-        return _matchSections[_selectedCategory].GetSelectedItem();
+        public InventoryMenuItem GetSelectedItem()
+        {
+            return _matchSections[_selectedCategory].GetSelectedItem();
+        }
     }
 }

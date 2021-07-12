@@ -1,20 +1,21 @@
+using System;
 using UnityEngine;
 
 public class Bank : MonoBehaviour
 {
-    public static Bank Instance;
-
-    [SerializeField] DiamondsCounter _diamondsCounter;
     private int _numberOfDiamonds;
     private const string _memoryAddressName = "NumberOfDiamonds";
 
+    public event Action<int> VisualizedNumberOfDiamonds;
+
     private void Awake()
     {
-        Instance = this;
-
         RestoreDiamondsState();
+    }
 
-        _diamondsCounter.UpdateValue(_numberOfDiamonds);
+    private void Start()
+    {
+        VisualizedNumberOfDiamonds?.Invoke(GetBalance());
     }
 
     private void SaveDiamondsState()
@@ -31,7 +32,7 @@ public class Bank : MonoBehaviour
     {
         _numberOfDiamonds += amount;
 
-        _diamondsCounter.UpdateValue(_numberOfDiamonds);
+        VisualizedNumberOfDiamonds?.Invoke(GetBalance());
 
         SaveDiamondsState();
     }
@@ -42,7 +43,7 @@ public class Bank : MonoBehaviour
         {
             _numberOfDiamonds -= amount;
 
-            _diamondsCounter.UpdateValue(_numberOfDiamonds);
+            VisualizedNumberOfDiamonds?.Invoke(GetBalance());
 
             SaveDiamondsState();
 

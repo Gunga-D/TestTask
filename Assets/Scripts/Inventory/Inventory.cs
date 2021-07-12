@@ -2,64 +2,67 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Inventory : MonoBehaviour
+namespace Inventory
 {
-    [SerializeField] private InventoryMenu _menu;
-    [SerializeField] private PlaceButtonHandler _btn;
-    [SerializeField] private SingleInventorySlot _slot;
-
-    [SerializeField] private Transform _exceptionArea;
-    [SerializeField] private InventoryItemException _outOfBlocksException;
-    private Dictionary<InventoryMenuItem, InventoryItemException> _allItemsWithErrors = 
-        new Dictionary<InventoryMenuItem, InventoryItemException>();
-
-    private void Awake()
+    public class Inventory : MonoBehaviour
     {
-        _btn.PlacedItem += OnPlace;
-    }
+        [SerializeField] private InventoryMenu _menu;
+        [SerializeField] private PlaceButtonHandler _btn;
+        [SerializeField] private SingleInventorySlot _slot;
 
-    private void OnPlace()
-    {
-        InventoryMenuItem item = _menu.GetSelectedItem();
+        [SerializeField] private Transform _exceptionArea;
+        [SerializeField] private InventoryItemError _outOfBlocksError;
+        private Dictionary<InventoryMenuItem, InventoryItemError> _allItemsWithErrors =
+            new Dictionary<InventoryMenuItem, InventoryItemError>();
 
-        if (item)
+        private void Awake()
         {
-            if (item.IsEnough && _slot.Instance)
-            {
-                item.ReduceAmount();
+            _btn.PlacedItem += OnPlace;
+        }
 
-                _slot.Place(item.RealItem);
-            }
-            else
+        private void OnPlace()
+        {
+            InventoryMenuItem item = _menu.GetSelectedItem();
+
+            if (item)
             {
-                if (_allItemsWithErrors.ContainsKey(item))
+                if (item.IsEnough && _slot.Instance)
                 {
-                    _allItemsWithErrors[item].Release();
+                    item.ReduceAmount();
+
+                    _slot.Place(item.RealItem);
                 }
                 else
                 {
-                    InventoryItemException exception = CreateException(_outOfBlocksException, item);
-                    exception.RemovedFromErrorsList += OnRemoveFromErrorsList;
+                    if (_allItemsWithErrors.ContainsKey(item))
+                    {
+                        _allItemsWithErrors[item].Release();
+                    }
+                    else
+                    {
+                        OutOfBlocksError exception = (OutOfBlocksError)CreateException(_outOfBlocksError, item);
+                        exception.RemovedFromErrorsList += OnRemoveFromErrorsList;
 
-                    _allItemsWithErrors.Add(item, exception);
+                        _allItemsWithErrors.Add(item, exception);
+                    }
                 }
             }
         }
-    }
 
-    private InventoryItemException CreateException(InventoryItemException sample, InventoryMenuItem brokenItem)
-    {
-        InventoryItemException instance = Instantiate(sample);
-        instance.transform.SetParent(_exceptionArea);
+        private InventoryItemError CreateException(InventoryItemError sample, InventoryMenuItem brokenItem)
+        {
+            InventoryItemError instance = Instantiate(sample);
+            instance.transform.SetParent(_exceptionArea);
 
-        instance.Initialize(brokenItem);
-        instance.Throw();
+            instance.Initialize(brokenItem);
+            instance.Throw();
 
-        return instance;
-    }
+            return instance;
+        }
 
-    private void OnRemoveFromErrorsList(InventoryMenuItem troubleMaker)
-    {
-        _allItemsWithErrors.Remove(troubleMaker);
+        private void OnRemoveFromErrorsList(InventoryMenuItem troubleMaker)
+        {
+            _allItemsWithErrors.Remove(troubleMaker);
+        }
     }
 }

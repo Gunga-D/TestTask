@@ -1,31 +1,50 @@
 using UnityEngine;
 using Zenject;
 
-public class Client : MonoBehaviour
+namespace Client
 {
-    private DiamondsInput _diamondsInput;
-    private TimeInput _timeInput;
-
-    [Inject]
-    private void ConstructInputs(DiamondsInput diamondsInput, TimeInput timeInput)
+    public class Client : MonoBehaviour
     {
-        _diamondsInput = diamondsInput;
-        _timeInput = timeInput;
-    }
+        private DiamondsInput _diamondsInput;
+        private TimeInput _timeInput;
 
-    private void Awake()
-    {
-        _diamondsInput.OnAppliedInput += OnDiamondsApply;
-        _timeInput.OnAppliedInput += OnTimeApply;
-    }
+        private Bank _bank;
+        private TimersContainer _timersContainer;
 
-    private void OnDiamondsApply()
-    {
-        Bank.Instance.Deposit(_diamondsInput.GetValue());
-    }
+        [Inject]
+        private void ConstructInputs(DiamondsInput diamondsInput, TimeInput timeInput)
+        {
+            _diamondsInput = diamondsInput;
+            _timeInput = timeInput;
+        }
 
-    private void OnTimeApply()
-    {
-        TimersContainer.Instance.DecreaseTimerAmount(_timeInput.GetValue());
+        [Inject]
+        private void Contruct(Bank bank, TimersContainer timersContainer)
+        {
+            _bank = bank;
+            _timersContainer = timersContainer;
+        }
+
+        private void Awake()
+        {
+            _diamondsInput.OnAppliedInput += OnDiamondsApply;
+            _timeInput.OnAppliedInput += OnTimeApply;
+        }
+
+        private void OnDiamondsApply()
+        {
+            _bank.Deposit(_diamondsInput.GetValue());
+        }
+
+        private void OnTimeApply()
+        {
+            _timersContainer.DecreaseTimerAmount(_timeInput.GetValue());
+        }
+
+        private void OnDestroy()
+        {
+            _diamondsInput.OnAppliedInput -= OnDiamondsApply;
+            _timeInput.OnAppliedInput -= OnTimeApply;
+        }
     }
 }

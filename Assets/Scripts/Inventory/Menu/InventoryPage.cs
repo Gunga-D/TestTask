@@ -2,43 +2,46 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InventoryPage : MonoBehaviour
+namespace Inventory
 {
-    [SerializeField] private List<InventoryMenuItem> _items = new List<InventoryMenuItem>();
-    private InventoryMenuItem _selectedItem;
-
-    private void Awake()
+    public class InventoryPage : MonoBehaviour
     {
-        foreach(var item in _items)
-        {
-            item.Selected += OnSelectItem;
-        }
-    }
+        [SerializeField] private List<InventoryMenuItem> _items = new List<InventoryMenuItem>();
+        private InventoryMenuItem _selectedItem;
 
-    private void OnSelectItem(InventoryMenuItem item)
-    {
-        if (_selectedItem)
+        private void Awake()
         {
-            _selectedItem.ChangeToUnselectStyle();
+            foreach (var item in _items)
+            {
+                item.Selected += OnSelectItem;
+            }
         }
 
-        _selectedItem = item;
+        private void OnSelectItem(InventoryMenuItem item)
+        {
+            if (_selectedItem)
+            {
+                _selectedItem.ChangeToUnselectStyle();
+            }
 
-        _selectedItem.ChangeToSelectStyle();
-    }
+            _selectedItem = item;
 
-    public void Open()
-    {
-        this.gameObject.SetActive(true);
-    }
+            _selectedItem.ChangeToSelectStyle();
+        }
 
-    public void Close()
-    {
-        this.gameObject.SetActive(false);
-    }
+        public void Open()
+        {
+            this.gameObject.SetActive(true);
+        }
 
-    public InventoryMenuItem GetSelectedItem()
-    {
-        return _selectedItem;
+        public void Close()
+        {
+            this.gameObject.SetActive(false);
+        }
+
+        public InventoryMenuItem GetSelectedItem()
+        {
+            return _selectedItem;
+        }
     }
 }

@@ -2,19 +2,22 @@ using System;
 using UnityEngine.UI;
 using UnityEngine;
 
-public class TimeInput : InputIntForm
+namespace Client
 {
-    [SerializeField] private Text _inputTimeText;
-
-    public Action OnAppliedInput;
-
-    private void Awake()
+    public class TimeInput : InputIntForm
     {
-        Initialize(_inputTimeText);
-    }
+        [SerializeField] private Text _inputTimeText;
 
-    public void OnEndEdit()
-    {
-        OnAppliedInput?.Invoke();
+        public event Action OnAppliedInput;
+
+        private void Awake()
+        {
+            Initialize(_inputTimeText);
+        }
+
+        public void OnEndEdit()
+        {
+            OnAppliedInput?.Invoke();
+        }
     }
 }

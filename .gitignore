@@ -1,0 +1,15 @@
+/Library
+/Logs
+/obj
+/UserSettings
+/.vsconfig
+/Assembly-CSharp
+/Test Task.sln
+/Zenject
+/Zenject-Editor
+/Zenject-IntegrationTests
+/Zenject-IntegrationTests-Editor
+/Zenject-PoolMonitor-Editor
+/Zenject-ReflectionBaking-Editor
+/Zenject-TestFramework
+/Zenject-UnitTests-Editor
